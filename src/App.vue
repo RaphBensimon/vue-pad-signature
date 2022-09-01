@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<vue-signature-pad v-model="signature" />
+		<vue-pad-signature v-model="signature" />
 	</div>
 </template>
 

@@ -1,7 +1,7 @@
-import VueSignaturePad from '@/components/VueSignaturePad.vue'
+import VuePadSignature from '@/components/VuePadSignature.vue'
 export default {
 	install(Vue) {
-		Vue.component('vue-signature-pad', VueSignaturePad)
+		Vue.component('vue-pad-signature', VuePadSignature)
 	}
 }
-export { VueSignaturePad }
+export { VuePadSignature }

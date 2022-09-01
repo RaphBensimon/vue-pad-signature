@@ -1,4 +1,4 @@
-# vue-signature-pad
+# vue-pad-signature
 
 ## Project setup
 ```
