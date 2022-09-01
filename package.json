@@ -1,10 +1,10 @@
 {
   "name": "vue-pad-signature",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library" : "vue-cli-service build --target lib --name vue-pad-signature ./src/install.js"
+    "build-library": "vue-cli-service build --target lib --name vue-pad-signature ./src/install.js"
   },
   "dependencies": {
     "vue": "^3.2.13"
@@ -18,11 +18,10 @@
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard": "^25.0.0"
   },
-  "main": "dist/vue-pad-signature.ssr.js",
-  "module": "dist/vue-pad-signature.esm.js",
-  "unpkg": "dist/vue-pad-signature.min.js",
-  "style": "dist/vue-pad-signature.css",
-  "files": ["dist/*"],
+  "main": ".dist/vue-pad-signature.common.js",
+  "files": [
+    "dist/*"
+  ],
   "repository": "https://github.com/RaphBensimon/vue-pad-signature",
   "bugs": "https://github.com/RaphBensimon/vue-pad-signature/issues"
 }
