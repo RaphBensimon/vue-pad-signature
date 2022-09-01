@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-
-createApp(App).mount('#app')
+import VueSignaturePad from './install'
+createApp(App).use(VueSignaturePad).mount('#app')

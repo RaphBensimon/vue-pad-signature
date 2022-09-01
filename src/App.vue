@@ -5,10 +5,8 @@
 </template>
 
 <script >
-import VueSignaturePad from './components/VueSignaturePad.vue'
 export default {
 	name       : 'App',
-	components : { VueSignaturePad },
 	data() {
 		return { signature : null }
 	}
