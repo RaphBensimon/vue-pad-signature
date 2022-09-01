@@ -1,0 +1,19 @@
+{
+	"extends": ["stylelint-config-standard", "stylelint-config-recommended-vue"],
+	"customSyntax": "postcss-html",
+	"rules": {
+		"color-no-hex": null,
+		"indentation": "tab",
+		"rule-empty-line-before": "never",
+		"at-rule-no-unknown": null,
+		"no-descending-specificity": null,
+		"selector-max-compound-selectors": 6,
+		"max-nesting-depth": [0, {"ignore": ["pseudo-classes"]}],
+		"selector-max-id": 2,
+		"selector-pseudo-element-colon-notation": "single",
+		"string-quotes": "single",
+		"color-function-notation": "legacy",
+		"function-no-unknown": [true, {"ignoreFunctions": ["lighten", "darken"]}],
+		"alpha-value-notation": "number"
+	}
+}
