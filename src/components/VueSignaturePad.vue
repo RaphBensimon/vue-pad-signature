@@ -1,5 +1,6 @@
 <template>
-	<canvas @mousedown="mousedown" @mousemove="mousemove" @mouseup="sign = false" @mouseout="sign = false" />
+	<canvas class="vue-signature-pad" @mousedown="mousedown" @mousemove="mousemove"
+		@mouseup="sign = false" @mouseout="sign = false" />
 </template>
 <script>
 export default {
@@ -59,7 +60,7 @@ export default {
 }
 </script>
 <style scoped>
-canvas {
+.vue-signature-pad {
     border: 1px solid black;
     background-color: white;
     cursor: crosshair;
