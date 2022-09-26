@@ -17,9 +17,9 @@ npm install vue-pad-signature
     export default {
         components: { VuePadSignature },
         data () {
-        return {
-            signature: null
-        }
+            return {
+                signature: null
+            }
         }
     }
 </script>
