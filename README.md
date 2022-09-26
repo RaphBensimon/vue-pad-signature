@@ -1,19 +1,26 @@
-# vue-pad-signature
+    # Vue pad signature ![npm](https://www.npmjs.com/package/vue-signature-pad)
+    A simple pad signature for Vue 3
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    ## Install
+    ```bash
+    npm install vue-pad-signature
+    ```
+    ### Basic Usage
+    ```vue
+    <template>
+    <div>
+        <vue-pad-signature v-model="signature">
+    </div>
+    </template>
+    <script>
+    import VuePadSignature from 'vue-pad-signature'
+    export default {
+        components: { VuePadSignature },
+        data () {
+        return {
+            signature: null
+        }
+        }
+    }
+    </script>
+    ```
