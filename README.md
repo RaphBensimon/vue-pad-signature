@@ -1,4 +1,4 @@
-# Vue pad signature [![npm](https://flat.badgen.net/npm/v/vue-pad-signature)](https://www.npmjs.com/package/vue-signature-pad)
+# Vue pad signature [![npm](https://flat.badgen.net/npm/v/vue-pad-signature)](https://www.npmjs.com/package/vue-pad-signature)
 A simple pad signature for Vue 3
 
 ## Install
