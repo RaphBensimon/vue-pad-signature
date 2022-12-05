@@ -1,6 +1,6 @@
 {
   "name": "vue-pad-signature",
-  "version": "0.1.4",
+  "version": "0.2.5",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,7 +18,7 @@
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard": "^25.0.0"
   },
-  "main": "./dist/vue-pad-signature.common.js",
+  "main": "dist/vue-pad-signature.common.js",
   "files": [
     "dist/*"
   ],

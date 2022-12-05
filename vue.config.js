@@ -1,1 +1,5 @@
-module.exports = { css : { extract : false } }
+module.exports = {
+	css                   : { extract : false },
+	chainWebpack          : config => config.optimization.minimize(false),
+	transpileDependencies : false
+}
