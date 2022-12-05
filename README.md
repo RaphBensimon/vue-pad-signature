@@ -1,6 +1,8 @@
 # Vue pad signature [![npm](https://flat.badgen.net/npm/v/vue-pad-signature)](https://www.npmjs.com/package/vue-pad-signature)
 A simple pad signature for Vue 3
-![image (1)](https://user-images.githubusercontent.com/28560613/205606928-e30c33ca-0ec8-45c8-8b72-e02862c38ebe.jpg =x250)
+![image (1)](https://user-images.githubusercontent.com/28560613/205606928-e30c33ca-0ec8-45c8-8b72-e02862c38ebe.jpg)
+<img src="https://user-images.githubusercontent.com/28560613/205606928-e30c33ca-0ec8-45c8-8b72-e02862c38ebe.jpg" width="200">
+
 
 ## Install
 ```bash
