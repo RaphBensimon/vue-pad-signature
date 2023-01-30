@@ -16,7 +16,7 @@ npm install vue-pad-signature
     </div>
 </template>
 <script>
-    import VuePadSignature from 'vue-pad-signature'
+    import { VuePadSignature } from 'vue-pad-signature'
     export default {
         components: { VuePadSignature },
         data () {
